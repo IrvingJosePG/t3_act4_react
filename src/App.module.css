@@ -1,0 +1,46 @@
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 35px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btnAgregar {
+  padding: 10px 20px;
+  background-color: #625bff; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btnAgregar:hover {
+  background-color: #5048e5;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}

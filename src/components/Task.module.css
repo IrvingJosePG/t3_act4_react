@@ -1,0 +1,55 @@
+.taskItem {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.taskText {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #a0a0a0;
+}
+
+.btnAccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px; 
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.2s;
+}
+
+.btnAccion:active {
+  transform: scale(0.95);
+}
+
+.btnToggle {
+  background-color: transparent;
+  color: #28a745;
+}
+
+.btnToggle:hover {
+  background-color: #e6f4ea;
+}
+
+.btnEliminar {
+  background-color: transparent;
+  color: #dc3545;
+}
+
+.btnEliminar:hover {
+  background-color: #fce8e8;
+}
